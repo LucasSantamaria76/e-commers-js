@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: blue;
+body {
+  width: 100vw;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
-.loader {
+#loader {
   margin: 1rem auto;
   display: block;
   width: 3rem;
@@ -29,12 +30,13 @@ a {
 
 .header {
   width: 100%;
-  height: 60px;
+  height: 150px;
   background-color: teal;
   box-shadow: 2px 2px 4px 2px #000;
   position: sticky;
   top: 0;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
@@ -43,9 +45,9 @@ a {
   justify-content: flex-end;
 }
 .header nav ul li {
-  font-size: 2em;
+  font-size: 1.3em;
   list-style: none;
-  margin-right: 20px;
+  padding-right: 20px;
   line-height: 60px;
 }
 .header nav ul li:hover {
@@ -63,15 +65,40 @@ a {
   margin: 1rem auto;
   padding: 1rem;
   width: 80%;
+  height: 300px;
   background-color: #eceff1;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 4px;
 }
 .product-card img {
   margin: 0;
   width: 100%;
+  height: 60%;
+  object-fit: contain;
 }
 .product-card h2 {
   text-align: center;
   padding: 10px 0 20px;
+}
+
+.navSelect {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navSelect select {
+  width: 250px;
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    flex-direction: row-reverse;
+    height: 60px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
