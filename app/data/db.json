@@ -2,86 +2,179 @@
   "Frutas": [
     {
       "id": 1,
+      "nombre": "Ananá",
+      "precio": "300",
+      "img": "Anana.jpg"
+    },
+    {
+      "id": 2,
       "nombre": "Arándanos",
+      "precio": "120",
+      "img": "arandanos.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Banana Brasil",
       "precio": "100",
       "img": "arandanos.jpg"
     },
     {
-      "id": 2,
-      "nombre": "Shiryu",
-      "constelacion": "Dragón"
-    },
-    {
-      "id": 3,
-      "nombre": "Hyoga",
-      "constelacion": "Cisne"
-    },
-    {
       "id": 4,
-      "nombre": "Shun",
-      "constelacion": "Andrómeda"
+      "nombre": "Banana Ecuador",
+      "precio": "250",
+      "img": "BananaEcuador.jpg"
     },
     {
       "id": 5,
-      "nombre": "Ikki",
-      "constelacion": "Fénix"
+      "nombre": "Cereza",
+      "precio": "100",
+      "img": "arandanos.jpg"
     },
     {
-      "nombre": "Mü",
-      "constelacion": "Aries",
-      "id": 6
+      "id": 6,
+      "nombre": "Ciruela",
+      "precio": "100",
+      "img": "arandanos.jpg"
     },
     {
-      "nombre": "Aldebaran",
-      "constelacion": "Tauro",
-      "id": 7
+      "id": 7,
+      "nombre": "Durazno Elegido",
+      "precio": "100",
+      "img": "arandanos.jpg"
     },
     {
-      "nombre": "Saga",
-      "constelacion": "Geminis",
-      "id": 8
+      "id": 8,
+      "nombre": "Durazno Comercial",
+      "precio": "100",
+      "img": "arandanos.jpg"
     },
     {
-      "nombre": "Máscara de Muerte",
-      "constelacion": "Cancer",
-      "id": 9
+      "id": 9,
+      "nombre": "Frutillas",
+      "precio": "100",
+      "img": "arandanos.jpg"
     },
+        {
+      "id": 10,
+      "nombre": "Kiwi",
+      "precio": "100",
+      "img": "arandanos.jpg"
+    },   
+     {
+      "id": 11,
+      "nombre": "Limón",
+      "precio": "100",
+      "img": "arandanos.jpg"
+    },    
     {
-      "nombre": "Aioria",
-      "constelacion": "Leo",
-      "id": 10
-    },
+      "id": 12,
+      "nombre": "Mandarina Elegida",
+      "precio": "100",
+      "img": "arandanos.jpg"
+    },  
+      {
+      "id": 13,
+      "nombre": "Mandarina Comercial",
+      "precio": "100",
+      "img": "arandanos.jpg"
+    },   
+     {
+      "id": 14,
+      "nombre": "Manzana Verde",
+      "precio": "100",
+      "img": "arandanos.jpg"
+    },    
     {
-      "nombre": "Shaka",
-      "constelacion": "Virgo",
-      "id": 11
-    },
+      "id": 15,
+      "nombre": "Manzana Caja",
+      "precio": "100",
+      "img": "arandanos.jpg"
+    },    
     {
-      "nombre": "Dohko",
-      "constelacion": "Libra",
-      "id": 12
+      "id": 16,
+      "nombre": "Manzana Comercial",
+      "precio": "100",
+      "img": "arandanos.jpg"
+    },   
+     {
+      "id": 17,
+      "nombre": "Melón",
+      "precio": "100",
+      "img": "arandanos.jpg"
+    },   
+     {
+      "id": 18,
+      "nombre": "Naranja Elegida",
+      "precio": "100",
+      "img": "arandanos.jpg"
+    },   
+     {
+      "id": 19,
+      "nombre": "Naranja Comercial",
+      "precio": "100",
+      "img": "arandanos.jpg"
     }
   ],
-  "dioses": [
+  "Verduras": [
     {
       "id": 1,
-      "nombre": "Athena",
-      "de": "Tierra"
+      "nombre": "Acelga",
+     "precio": "100",
+      "img": "arandanos.jpg"
     },
     {
       "id": 2,
-      "nombre": "Poseidón",
-      "de": "Mar"
+      "nombre": "Ajo",
+     "precio": "100",
+      "img": "arandanos.jpg"
     },
     {
       "id": 3,
-      "nombre": "Hades",
-      "de": "Inframundo"
+      "nombre": "Albahaca",
+     "precio": "100",
+      "img": "arandanos.jpg"
     },
     {
       "id": 4,
-      "nombre": "Zeus",
-      "de": "Cielo"
+      "nombre": "Apio",
+     "precio": "100",
+      "img": "arandanos.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Batata",
+     "precio": "100",
+      "img": "arandanos.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Berenjena",
+     "precio": "100",
+      "img": "arandanos.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Brócoli",
+     "precio": "100",
+      "img": "brocoli.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Apio",
+     "precio": "100",
+      "img": "arandanos.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Apio",
+     "precio": "100",
+      "img": "arandanos.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Apio",
+     "precio": "100",
+      "img": "arandanos.jpg"
     }
   ]
 }

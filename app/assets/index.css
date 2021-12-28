@@ -30,7 +30,7 @@ a {
 .header {
   width: 100%;
   height: 60px;
-  background-color: rgba(0, 128, 128, 0.288);
+  background-color: teal;
   box-shadow: 2px 2px 4px 2px #000;
   position: sticky;
   top: 0;
@@ -50,6 +50,28 @@ a {
 }
 .header nav ul li:hover {
   opacity: 0.3;
+}
+
+.grid-fluid {
+  margin: 1rem auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.product-card {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  background-color: #eceff1;
+}
+.product-card img {
+  margin: 0;
+  width: 100%;
+}
+.product-card h2 {
+  text-align: center;
+  padding: 10px 0 20px;
 }
 
 /*# sourceMappingURL=index.css.map */

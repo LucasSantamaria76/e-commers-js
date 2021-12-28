@@ -1,5 +1,6 @@
 export function Cards() {
-  $cards = document.createElement('section');
-  $cards.id = 'cards';
+  const $cards = document.createElement("section");
+  $cards.id = "cards";
+  $cards.classList.add("grid-fluid");
   return $cards;
 }
