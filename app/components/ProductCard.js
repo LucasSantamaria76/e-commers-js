@@ -7,8 +7,9 @@ export function ProductCard(props) {
      <article class="product-card">
       <img src=${path} alt=${nombre}">
       <div class="card-info">
-         <h2>${nombre}</h2>
-         <h4>Precio: $ ${precio}</h4>    
+         <h3>${nombre}</h3>
+         <h4>Precio: $ ${precio}</h4>
+         <button class="btn">comprar</button> 
       </div>
     </article>`;
 }
